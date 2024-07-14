@@ -23,7 +23,7 @@ const AuthContextProvider = ({ children }) => {
         const currentUser = {
             email: user?.email,
             name: user?.displayName,
-            role: 'requested',
+            role: 'admin',
         }
     
         const response = await fetch(`${process.env.NEXT_PUBLIC_API_LINK}/admin`, {
