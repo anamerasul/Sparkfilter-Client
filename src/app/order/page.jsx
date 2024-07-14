@@ -30,7 +30,7 @@ const OrderPage = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/order/${id}`, {
+                fetch(`${process.env.NEXT_PUBLIC_API_LINK}/order/${id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
