@@ -8,7 +8,7 @@ const ServicesPage = () => {
     return (
         <div>
             <div className="relative">
-                <Image className="w-full h-auto max-h-[700px] object-cover" src="/servicesbanner.jpg" height={1500} width={1500} alt="services" />
+                <Image className="w-full h-auto max-h-[700px] object-cover" src="/servicesbanner.jpg" height={1500} width={1500} alt="services"/>
                 <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
                     <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold">Services</h1>
                 </div>
@@ -36,7 +36,7 @@ const ServicesPage = () => {
                     </ol>
                 </div>
                 <div className='bg-gray-100 p-5 md:p-10'>
-                    <p><SiTaichigraphics className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10' /></p>
+                    <p><SiTaichigraphics className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10'/></p>
                     <h1 className='text-2xl md:text-4xl font-semibold'>Graphics Design</h1>
                     <ol class="ml-10 mt-5 list-disc md:text-2xl ">
                         <li className='ml-4'>Custom logo creation</li>
@@ -46,7 +46,7 @@ const ServicesPage = () => {
                     </ol>
                 </div>
                 <div className='bg-gray-100 p-5 md:p-10'>
-                    <p><SiWebcomponentsdotorg className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10' /></p>
+                    <p><SiWebcomponentsdotorg className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10'/></p>
                     <h1 className='text-2xl md:text-4xl font-semibold'>Web Design</h1>
                     <ol class="ml-10 mt-5 list-disc md:text-2xl ">
                         <li className='ml-4'>Custom Website Design</li>
