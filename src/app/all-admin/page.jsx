@@ -68,7 +68,7 @@ const AdminPage = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/admins/${id}`, {
+                fetch(`${process.env.NEXT_PUBLIC_API_LINK}/admins/${id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
