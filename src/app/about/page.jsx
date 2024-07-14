@@ -15,17 +15,17 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className='grid lg:grid-cols-3 gap-10 container mx-auto mt-20 lg:mt-40 lg:mb-80'>
-                <div className=' lg:border-r-2 border-black p-5 md:p-10'>
+                <div className='lg:border-r-2 border-black p-5 md:p-10'>
                     <p className='text-6xl font-bold'>5+</p>
                     <h1 className='text-[22px] md:text-3xl font-semibold mt-6'>Years of Experience</h1>
                     <h1 className='mt-6'>We are a creative agency brands building insightful strategy, creating unique designs helping</h1>
                 </div>
-                <div className=' lg:border-r-2 border-black p-5 md:p-10'>
+                <div className='lg:border-r-2 border-black p-5 md:p-10'>
                     <p className='text-6xl font-bold'>100+</p>
                     <h1 className='text-[22px] md:text-3xl font-semibold mt-6'>Successful Projects</h1>
                     <h1 className='mt-6'>We are a creative agency brands building insightful strategy, creating unique designs helping</h1>
                 </div>
-                <div className=' lg:border-r-2 border-black p-5 md:p-10'>
+                <div className='lg:border-r-2 border-black p-5 md:p-10'>
                     <p className='text-6xl font-bold'>90+</p>
                     <h1 className='text-[22px] md:text-3xl font-semibold mt-6'>Satisfied Customers</h1>
                     <h1 className='mt-6'>We are a creative agency brands building insightful strategy, creating unique designs helping</h1>
