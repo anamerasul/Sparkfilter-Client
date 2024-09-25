@@ -37,7 +37,7 @@ const Footer = () => {
 
                 <div className='flex text-center lg:flex-row flex-col gap-3 items-center lg:justify-between mt-12'>
                     <div className='flex gap-10'>
-                        <a href='#'> <FaFacebook className='text-4xl'></FaFacebook></a>
+                        <a href='https://www.facebook.com/sparkgears/'> <FaFacebook className='text-4xl'></FaFacebook></a>
                         <a href='#'> <FaInstagram className='text-4xl'></FaInstagram></a>
                     </div>
                     <div>
