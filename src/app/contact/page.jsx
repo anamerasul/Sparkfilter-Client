@@ -75,15 +75,37 @@ const ContactPage = () => {
                 <div className='bg-gray-100 p-5 md:p-10'>
                     <p><MdEmail className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10' /></p>
                     <h1 className='text-2xl md:text-4xl font-semibold'>Email Address</h1>
-                    <h1 className='mt-6'>frisk.agency@mail.com</h1>
-                    <h1 className='mt-2'>frisk.agency@mail.com</h1>
+                    <h1 className='mt-6'>
+        <a href="mailto:mdanamerasulc@gmail.com">mdanamerasulc@gmail.com</a>
+      </h1>
+
+      <h1 className='mt-2'>
+        <a href="mailto:mdanamerasul101@gmail.com">mdanamerasul101@gmail.com</a>
+      </h1>
 
                 </div>
                 <div className='bg-gray-100 p-5 md:p-10'>
                     <p><FaPhoneAlt className='md:text-5xl text-4xl md:mb-8 mb-3 lg:mb-10' /></p>
                     <h1 className='text-2xl md:text-4xl font-semibold'>Whatsapp/Phone</h1>
-                    <h1 className='mt-6'>017*********</h1>
-                    <h1 className='mt-2'>017*********</h1>
+                     <h1 className='mt-6'>
+        <a
+          href="https://wa.me/8801640048741"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          +8801640048741 (WhatsApp Call/Message)
+        </a>
+      </h1>
+
+      <h1 className='mt-2'>
+        <a
+          href="https://wa.me/8801784449335"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          +8801784449335 (WhatsApp Call/Message)
+        </a>
+      </h1>
                 </div>
 
 
