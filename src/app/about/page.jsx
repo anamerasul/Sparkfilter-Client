@@ -82,9 +82,9 @@ const AboutPage = () => {
                     <h2 className='text-xs md:text-xl md:mt-4'>Senior Full Stack Developer &</h2>
                     <h2 className='text-xs md:text-xl'>SEO Engineer</h2>
                     <div className='flex mt-5  lg:mt-10 gap-10'>
-                        <a href='#'><FaFacebook className='text-2xl md:text-4xl' /> </a>
-                        <a href='#'><FaLinkedin className='text-2xl md:text-4xl' /></a>
-                        <a href='#'><TbBrandFiverr className='text-2xl md:text-4xl' /></a>
+                        <a href='https://www.facebook.com/sparkgears/'><FaFacebook className='text-2xl md:text-4xl' /> </a>
+                        <a href='https://www.linkedin.com/in/md-anam-e-rasul-chowdhuray/'><FaLinkedin className='text-2xl md:text-4xl' /></a>
+                        <a href='https://www.fiverr.com/sparkfilter/'><TbBrandFiverr className='text-2xl md:text-4xl' /></a>
                     </div>
                 </div>
             </div>
